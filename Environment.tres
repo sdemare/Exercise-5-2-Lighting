@@ -1,0 +1,16 @@
+[gd_resource type="Environment" load_steps=3 format=3 uid="uid://cfw5u8n3kpoxl"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_nrgxw"]
+
+[sub_resource type="Sky" id="Sky_b0jpa"]
+sky_material = SubResource("PanoramaSkyMaterial_nrgxw")
+
+[resource]
+background_mode = 1
+background_color = Color(0.266667, 0.266667, 0.266667, 1)
+sky = SubResource("Sky_b0jpa")
+ambient_light_source = 3
+ambient_light_color = Color(0.372549, 0.129412, 0.85098, 1)
+ambient_light_sky_contribution = 0.5
+tonemap_mode = 3
+ssr_enabled = true
